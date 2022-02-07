@@ -1,0 +1,11 @@
+feign:
+  sentinel:
+    enabled: true # 激活Sentinel对Feign的支持
+ribbon:
+  ReadTimeout:  5000
+  ConnectTimeout: 5000
+
+#配置Feign日志
+logging:
+  level:
+    com.csii.subscription.service.PaymentFeignService: debug

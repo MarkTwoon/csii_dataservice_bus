@@ -1,0 +1,5 @@
+# Project exclude paths
+/csii_commons/target/
+/csii_gateway_gateway4001/target/
+/csii_service_regist5001/target/
+/csii_service_subscription6001/target/
